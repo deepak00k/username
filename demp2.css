@@ -1,0 +1,131 @@
+body{
+height:100px;
+width:500px;
+display:flex;
+justify-content:left;
+align-items:left;
+background:linear-gradient(to right,#FFD700,#00FFFF) ;
+
+}
+
+form{
+width:20rem;
+height:30rem;
+display:flex;
+flex-direction:column;
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.65)),url(K:\ship.jpg);
+box-shadow:0 15px 32px 0 rgba(31,38,135,.37);
+border-radius:30px;
+border-left:1px solid rgpa(255,255,255,.3);
+boder-top:0px solid rgpa(255,255,255,.3);
+
+}
+
+
+div {
+  
+ 
+ height:1px; 
+ width:35px ;
+ position:relative ;
+  
+ padding:1px 1px;
+  
+ margin: 100px ;
+
+
+}
+
+
+.avathar{
+width:90px;
+height:90px;
+border-radius:50%;
+position:absolute;
+top:-45px;
+left:calc(50% -50%);
+}
+
+h3{
+font-size:30px;
+text-align:center;
+color:white;
+text-shadow:2px 2px 4px rgba(0,0,0,.2);
+letter-spacing:3px;
+margin-bottom:6%;
+opacity:.7;
+}
+
+input{
+width:80%;
+margin:4% auto;
+border:none;
+border-radius:20px;
+outline:none;
+color;black;
+border-bottom:15px solid rgba(255,255,255,0.6);
+opacity:.8;
+}
+
+  
+
+
+button{
+width:50%;
+margin:3% auto;
+color:black;
+font-size:15px;
+opacity:.7;
+background:rgba(255,255,255,0.6);
+padding:10px 30px;
+border:none;
+outline:none;
+border-radius:20px;
+text-shadow:2px 2px 4px rgba(255,255,255,0.6);
+box-shadow:2px 2px 4px rgba(31,38,135,.37);
+border-left:2px 2px solid rgba(255,255,255,0.3);
+border-top:2px 2px solid rgba(255,255,255,0.3);
+
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  top: 1;
+  padding-top: 20px;
+}
+
+.right {
+  right: 1;
+ 
+}
+
+.centered img {
+  width: 300px;
+  border-radius: 100%;
+}
+
+.content{
+width:85%;
+position:absolute;
+top:75%;
+transform:translatey(-50%);
+text-align:left;
+
+}
+
+.content p{
+color:white;
+font-size:21px;
+margin:50px auto;
+font-weight:10;
+line-height:30px;
+}
+
+ ul li{
+list-style:none;
+display:inline-block;
+margin:0 20px;
+position:relative;
+}

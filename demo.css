@@ -1,0 +1,153 @@
+body{
+height:100px;
+width:500px;
+display:flex;
+justify-content:left;
+align-items:left;
+background:linear-gradient(to right,#D2691E,#FFD700) ;
+
+}
+
+form{
+width:20rem;
+height:21rem;
+display:flex;
+flex-direction:column;
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.55)),url(K:\my1/images.jpg);
+background-size:cover;
+background-position:center;
+box-shadow:0 15px 32px 0 rgba(31,38,135,.37);
+border-radius:30px;
+border-left:1px solid rgpa(255,255,255,.3);
+boder-top:0px solid rgpa(255,255,255,.3);
+
+}
+
+
+div {
+  
+ 
+ height:1px; 
+ width:35px ;
+ position:relative ;
+  
+ padding:1px 1px;
+  
+ margin: 100px ;
+
+
+}
+
+
+.avathar{
+width:90px;
+height:90px;
+border-radius:50%;
+position:absolute;
+top:-45px;
+left:calc(50% -50%);
+}
+
+h3{
+font-size:30px;
+text-align:center;
+color:white;
+text-shadow:2px 2px 4px rgba(0,0,0,.2);
+letter-spacing:3px;
+margin-bottom:6%;
+opacity:.7;
+}
+
+input{
+width:80%;
+margin:4% auto;
+border:none;
+border-radius:10px;
+outline:none;
+color;black;
+border-bottom:15px solid rgba(255,255,255,0.6);
+opacity:.8;
+}
+
+  
+
+
+
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  top: 1;
+  padding-top: 20px;
+}
+
+.right {
+  right: 1;
+ 
+}
+
+.centered img {
+  width: 300px;
+  border-radius: 100%;
+}
+
+.content{
+width:85%;
+position:absolute;
+top:70%;
+transform:translatey(-50%);
+text-align:left;
+
+}
+
+.content p{
+color:white;
+font-size:21px;
+margin:50px auto;
+font-weight:10;
+line-height:30px;
+}
+
+ input[type="submit"]{
+font-size:15px;
+border:0;
+background:none;
+display:block;
+margin:20px auto:
+border:3px solid #00FFFF;
+padding:14px 35px;
+outline:none;
+color:white;
+border-radius:24px;
+transition:0.30px;
+cursor:pointer; 
+}
+
+ input[type="submit"]:hover{
+background:#00FFFF;
+}
+
+ ul li{
+list-style:none;
+display:inline-block;
+margin:0 20px;
+position:relative;
+}
+
+.content{
+width:85%;
+position:absolute;
+top:55%;
+transform:translatey(-50%);
+text-align:left;
+
+}
+
+.content p{
+color:white;
+font-size:21px;
+margin:50px auto;
+font-weight:10;
+line-height:35px;
+}
